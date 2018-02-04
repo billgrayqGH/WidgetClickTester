@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnString"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:layout_weight="1">
+        <View android:id="@+id/redbox" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:background="@color/redbg"
+            android:layout_weight="1"></View>
+        <View android:id="@+id/greenbox" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:background="@color/greenbg"
+            android:layout_weight="1"></View>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:layout_weight="1">
+        <View android:id="@+id/yellowbox" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:background="@color/yellowbg"
+            android:layout_weight="1"></View>
+        <View android:id="@+id/bluebox" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:background="@color/bluebg"
+            android:layout_weight="1"></View>
+    </LinearLayout>
+</LinearLayout>
+

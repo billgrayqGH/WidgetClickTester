@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ClickTester2k16</string>
+    <string name="btnString">Button</string>
+    <string name="shortClick">Short Click:</string>
+    <string name="longClick">Long Click:</string>
+    <string name="greenStr">Top Right Box</string>
+    <string name="redStr">Top Left Box</string>
+    <string name="blueStr">Bottom Right Box</string>
+    <string name="yellowStr">Bottom Left Box</string>
+</resources>
